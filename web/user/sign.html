@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+   
+   <link rel="stylesheet" href="../css/flipbox.css">
+   <link rel="stylesheet" href="../css/flipbox2.css">
+   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--Bootsrap 4 CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"  crossorigin="anonymous">
+    
+    <!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"  crossorigin="anonymous">
+
+	<!--Custom styles-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    
+    <style>
+        
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('https://source.unsplash.com/1600x900/?rupees,INR');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+  margin: 5%;
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+    </style>
+</head>
+<body>
+<div class="container">
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+			<div class="card-header">
+				<h3 style="margin-top: 5%;text-align: center;background-color: #FFC312;color: black;border: 2px solid black;">User Login</h3>
+				<div class="d-flex justify-content-end social_icon">
+          <span class="form-group" style="margin-left:5%;margin-top: 5%;">
+						<button class="btn  login_btn"><a href="../index.html" style="text-decoration: none; color: black;font-weight: 1000;">Home</a></button>
+					</span>
+					<span><i class="fab fa-facebook-square"></i></span>
+					<span><i class="fab fa-google-plus-square"></i></span>
+					<span><i class="fab fa-twitter-square"></i></span>
+				</div>
+			</div>
+			<div class="card-body">
+
+        <a href="newaccount.jsp">
+				<div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <i class="fas fa-user fa-4x " style="margin-top: 2%;"></i>
+            </div>
+            <div class="flip-box-back">
+              <h5 style="margin-top: 16%;font-family: 'Numans', sans-serif;
+              font-weight: 800;"> Create an account</h5>
+            </div>
+          </div>
+        </div></a>
+
+        <a href="jsp/signin.jsp">
+        <div class="flip-box2">
+          <div class="flip-box-inner2">
+            <div class="flip-box-front2">
+              <i class="fas fa-user-shield fa-4x " style="margin-top: 2%;"></i>
+            </div>
+            <div class="flip-box-back2">
+              <h5 style="margin-top: 16%;font-family: 'Numans', sans-serif;
+              font-weight: 800;">Already has an account</h5>
+            </div>
+          </div>
+        </div>
+      </a>
+
+     </div>
+      
+			
+		</div>
+	</div>
+</div>
+<div class="copyright" style="text-align: center;margin-top: -2%;">
+	<p>© year Net Banking. All rights reserved | Design by <a href="../Self Web/index.html">NIKHIL DUBEY</a></p>
+  </div>
+
+  
+</body>
+
+</html>

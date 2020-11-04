@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-Oct-2020, 11:33:17 pm
+    Author     : HP
+*/
+@charset "UTF-8";
+body {
+	  margin: 0;
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	.topnav {
+	  position: relative;
+	  overflow: hidden;
+	  background-color: rgba(0, 0, 0, 0.616);
+	  /*box-shadow: rgb(252, 227, 0) 0px 5px 5px;*/
+	}
+	
+	.topnav a {font-family: monospace;
+		
+	  float: left;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+	
+	.topnav a:hover {
+	  background-color:greenyellow;
+	  color: black;
+	}
+	
+	
+	
+	.topnav-centered a {
+		font-family: roboto;
+	  float: none;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  border: 2px solid greenyellow ;
+	  border-radius: 5px;
+	  border-bottom-right-radius: 25px;
+	  border-bottom-left-radius: 25px;
+	  transform: translate(-20%, -50%);
+	  box-shadow: greenyellow 0px 0px 15px;
+	}
+	.topnav-centered a {
+		font-family: roboto;
+	  float: none;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  border: 2px solid greenyellow ;
+	  border-radius: 5px;
+	  border-bottom-right-radius: 25px;
+	  border-bottom-left-radius: 25px;
+	  transform: translate(-20%, -50%);
+	  box-shadow: greenyellow 0px 0px 15px;
+	}
+	.topnav-centered2 a {
+		font-family: roboto;
+	  float: none;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  border: 2px solid red ;
+	  border-radius: 5px;
+	  border-bottom-right-radius: 25px;
+	  border-bottom-left-radius: 25px;
+	  transform: translate(0%, -50%);
+	  box-shadow: red 0px 0px 15px;
+	}
+	.topnav-centere {
+		font-family: roboto;
+	  float: none;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  border: 2px solid red ;
+	  border-radius: 5px;
+	  border-bottom-right-radius: 25px;
+	  border-bottom-left-radius: 25px;
+	  background-color: red;
+	 
+	  box-shadow: red 0px 0px 15px;
+	}
+	.topnav-right {
+	  float: right;
+	}
+	
+	/* Responsive navigation menu (for mobile devices) */
+	@media screen and (max-width: 600px) {
+	  .topnav a, .topnav-right {
+		font-family: monospace;
+		float: none;
+		display: block;
+	  }
+	  
+	  .topnav-centered a {
+		font-family: roboto;
+		position: relative;
+		top: 0;
+		left: 0;
+		transform: translate(0%, 20%);
+	  }
+	  .topnav-centered2 a {
+		font-family: roboto;
+		position: relative;
+		top: 0;
+		left:0;
+		width: 90%;
+		transform: translate(10%, 15%);
+	  }
+	}
+	
